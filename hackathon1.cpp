@@ -81,7 +81,7 @@ int main()
                 int is_swap = 1;
                 for (int j = 0; j < i; ++j)
                 {
-                    if (tmp[j] > tmp[j + 1])
+                    if (tmp[j] < tmp[j + 1])
                     {
                         int temp = tmp[j];
                         tmp[j] = tmp[j + 1];
